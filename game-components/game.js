@@ -10,7 +10,7 @@ export default class Game {
   }
 
   update() {
-    this.player.update()
+    this.player.update(this.input.keys)
   }
 
   draw(context) {
