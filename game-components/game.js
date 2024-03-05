@@ -8,7 +8,7 @@ export default class Game {
   }
 
   update() {
-
+    this.player.update()
   }
 
   draw(context) {
